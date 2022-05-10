@@ -1,0 +1,10 @@
+datalore-env-format-version: "0.2"
+datalore-package-manager: "pip"
+datalore-base-env: "default"
+dependencies:
+- pip:
+  - folium
+  - pandas-bokeh==0.5.5
+  - dataframe-image==0.1.1
+  - flask==2.0.3
+  - graphviz
